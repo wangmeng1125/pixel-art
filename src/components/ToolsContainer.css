@@ -1,0 +1,24 @@
+.tools-container {
+
+}
+
+.tool-button {
+  display: inline-block;
+  margin: 5px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #222;
+  background: #555;
+  color: #ccc;
+}
+
+.tool-button.active {
+  border-color: #222;
+  background: #333;
+}
+
+.tool-button:focus {
+  outline: none;
+}
+
+.color-popover { position: absolute; }
